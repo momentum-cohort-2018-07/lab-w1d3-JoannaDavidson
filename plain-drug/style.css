@@ -1,0 +1,96 @@
+html {
+  background-color: #fffedc;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #0A090C;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0px;
+  padding: 15px 0px 0px 0px;
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.name1 {
+  font-size: 3rem;
+}
+
+.store-image {
+  width: 400px;
+/*   border-width: 1px;
+  border-color: #0A090C;
+  border-style: solid;
+  padding: 10px; */
+  border-radius: 50% 50% 0 0;
+  padding: 0px 0px 0px 0px;
+}
+
+.address { 
+  float: left;
+}
+
+.hours {
+  float: right;
+}
+
+dt {
+  font-weight: bold;
+  color: #003300;
+}
+
+dd.stock {
+  height: 200px;
+}
+
+.plant-image {
+  float: right;
+  height: 200px;
+}
+
+#banner {
+  border-radius: 50% 50% 35px 35px;
+  color: #ffcc11;
+  text-align: center;
+  background-color: #004400;
+}
+
+ul.nav {
+    border-radius: 0px 0px 35px 35px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    background-color: #ffcc11;
+}
+
+ul.nav li {
+  display: inline;
+}
+
+ul.nav li a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px 20px 2px 20px;
+  font-size: 22px;
+  color: #004400;
+}
+
+ul.nav li a:hover {
+  background-color: #004400;
+  color: #ffcc11;
+}
+
+ul.nav li a:active {
+  background-color: #004400;
+  color: #ffcc11;
+}
